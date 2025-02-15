@@ -27,8 +27,8 @@ while True:
     gamepad.update()
     print('X button pressed.')
 
-    # 2秒待機
-    time.sleep(2)
+    # 3秒待機
+    time.sleep(3)
 
     # POV↓ボタンを押す
     gamepad.press_button(vg.XUSB_BUTTON.XUSB_GAMEPAD_DPAD_DOWN)
